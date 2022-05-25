@@ -14,7 +14,6 @@ dependencies:
   flutter_web_auth: #used to implement oauth 2.0
     git:
       url: https://github.com/noga-dev/flutter_web_auth.git
-      ref: ee3c26a530a625c3cab7e0c45cc30316c8b4b64c
   dio: ^4.0.6 #better web browser
   logger: ^1.0.0
   intl: ^0.17.0
