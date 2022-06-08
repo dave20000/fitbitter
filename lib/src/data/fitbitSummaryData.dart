@@ -4,7 +4,7 @@ class FitbitSummaryData implements FitbitData {
   num? activeScore;
   num? activityCalories;
   num? caloriesBMR;
-  double? caloriesOut;
+  num? caloriesOut;
   List<Distances>? distances;
   num? fairlyActiveMinutes;
   num? lightlyActiveMinutes;
@@ -67,7 +67,7 @@ class FitbitSummaryData implements FitbitData {
 
 class Distances {
   String? activity;
-  double? distance;
+  num? distance;
 
   Distances({this.activity, this.distance});
 
