@@ -38,9 +38,8 @@ class FitbitSummaryManager extends FitbitDataManager {
     List<FitbitSummaryData> summaryDataPoints =
         List<FitbitSummaryData>.empty(growable: true);
 
-    for (var record = 0; record < data.length; record++) {
-      summaryDataPoints.add(FitbitSummaryData.fromJson(data[record]));
-    } // for entry
+    summaryDataPoints.add(FitbitSummaryData.fromJson(data));
+
     return summaryDataPoints;
   } // _extractFitbitSummaryData
 
