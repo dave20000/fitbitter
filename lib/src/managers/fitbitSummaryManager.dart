@@ -8,11 +8,11 @@ import 'package:fitbitter/src/data/fitbitSummaryData.dart';
 
 import 'package:fitbitter/src/managers/fitbitDataManager.dart';
 
-/// [FitbitActivitySummaryManager] is a class the manages the requests related to
+/// [FitbitSummaryManager] is a class the manages the requests related to
 /// [FitbitSummaryData].
-class FitbitActivitySummaryManager extends FitbitDataManager {
-  /// Default [FitbitActivitySummaryManager] constructor.
-  FitbitActivitySummaryManager({String? clientID, String? clientSecret}) {
+class FitbitSummaryManager extends FitbitDataManager {
+  /// Default [FitbitSummaryManager] constructor.
+  FitbitSummaryManager({String? clientID, String? clientSecret}) {
     this.clientID = clientID;
     this.clientSecret = clientSecret;
   } // FitbitActivitySummaryManager

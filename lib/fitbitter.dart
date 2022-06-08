@@ -11,6 +11,7 @@ export 'package:fitbitter/src/data/fitbitActivityTimeseriesData.dart';
 export 'package:fitbitter/src/data/fitbitDeviceData.dart';
 export 'package:fitbitter/src/data/fitbitHeartData.dart';
 export 'package:fitbitter/src/data/fitbitSleepData.dart';
+export 'package:fitbitter/src/data/fitbitSummaryData.dart';
 
 //Errors
 export 'package:fitbitter/src/errors/fitbitException.dart';
@@ -29,6 +30,7 @@ export 'package:fitbitter/src/managers/fitbitActivityTimeseriesDataManager.dart'
 export 'package:fitbitter/src/managers/fitbitDeviceDataManager.dart';
 export 'package:fitbitter/src/managers/fitbitHeartDataManager.dart';
 export 'package:fitbitter/src/managers/fitbitSleepDataManager.dart';
+export 'package:fitbitter/src/managers/fitbitSummaryManager.dart';
 
 //URLs
 export 'package:fitbitter/src/urls/fitbitAPIURL.dart';
@@ -39,3 +41,4 @@ export 'package:fitbitter/src/urls/fitbitDeviceAPIURL.dart';
 export 'package:fitbitter/src/urls/fitbitHeartAPIURL.dart';
 export 'package:fitbitter/src/urls/fitbitSleepAPIURL.dart';
 export 'package:fitbitter/src/urls/fitbitUserAPIURL.dart';
+export 'package:fitbitter/src/urls/fitbitSummaryAPIURL.dart';
