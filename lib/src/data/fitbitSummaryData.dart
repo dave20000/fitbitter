@@ -1,17 +1,17 @@
 import 'package:fitbitter/src/data/fitbitData.dart';
 
 class FitbitSummaryData implements FitbitData {
-  int? activeScore;
-  int? activityCalories;
-  int? caloriesBMR;
-  int? caloriesOut;
+  double? activeScore;
+  double? activityCalories;
+  double? caloriesBMR;
+  double? caloriesOut;
   List<Distances>? distances;
-  int? fairlyActiveMinutes;
-  int? lightlyActiveMinutes;
-  int? marginalCalories;
-  int? sedentaryMinutes;
-  int? steps;
-  int? veryActiveMinutes;
+  double? fairlyActiveMinutes;
+  double? lightlyActiveMinutes;
+  double? marginalCalories;
+  double? sedentaryMinutes;
+  double? steps;
+  double? veryActiveMinutes;
 
   FitbitSummaryData({
     this.activeScore,
